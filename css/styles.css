@@ -1,0 +1,261 @@
+:root {
+	--iris: #4d5ae5;
+	--ocean: #404bbf;
+	--navy-blue: #2e2f42;
+	--green: #31d0aa;
+	--slate: #434455;
+	--light-slate: #8e8f99;
+	--cornflower: #e7e9fc;
+	--cloud: #f4f4fd;
+	--navy-blue-modal: rgba(46, 47, 66, 0.4);
+	--grey: rgba(46, 47, 66, 0.7);
+	--white: #fff;
+	--dairy: #fcfcfc;
+
+  --font-family: "Roboto", sans-serif;
+    --second-family: "Raleway", sans-serif;
+}
+
+ ul {
+   list-style: none;
+ }
+
+body {
+  color: var(--slate);
+  font-family: "Roboto", sans-serif;
+  background-color: var(--white);
+}
+
+.secone {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 60px;
+  letter-spacing: 0.03em;
+  color: var(--iris);
+}
+
+/* Стиль для h2 у секціях */
+.sectwo-title,
+.secthree-title,
+.secfour-title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+}
+
+/* Стиль для h3 у секціях sectwo, team, secfour */
+.sectwo-htwo,
+.team-h,
+.secfour-htree {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-blue);
+}
+
+/* Стиль для абзаців */
+.sectwo-p,
+.team-p,
+.secfour-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+/* Стиль для посилань */
+.nav-ref,
+.header-logo-a,
+.logo {
+  text-decoration: none;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  line-height: 16px;
+}
+
+.header {
+  background-color: var(--white);
+}
+
+.header-logo-a {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--iris);
+  background-color: var(--white);
+  text-transform: uppercase;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.header-logo-word {
+  color: #2e2f42;
+}
+
+.header-nav-ul a {
+  color: var(--navy-blue);
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+}
+
+.header-address {
+  font-style: normal;
+}
+
+.header address a {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--slate);
+  letter-spacing: 0.02em
+}
+
+.nav-ref:focus,
+.nav-ref:hover {
+  color: var(--ocean);
+}
+ 
+
+/* Секція 1 */
+.secone {
+  background: var(--navy-blue);
+  font-family: var(--font-family);
+  font-weight: 700;
+    font-size: 56px;
+    text-align: center;
+    line-height: 1.07;
+      letter-spacing: 0.02em;
+      color: var(--white);
+}
+
+.secone button.order-button {
+
+  background: var(--iris);
+
+  font-weight: 500;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  cursor: pointer;
+}
+
+
+
+
+.secone button.order-button:hover,
+.secone button.order-button:focus {
+  background-color: var(--ocean);
+}
+
+
+
+
+.sectwo {
+  font-weight: 400;
+    font-size: 16px;
+  
+    /* line-height: 24px; */
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+/*-------------------------------------------------------- section three */
+
+
+.secthree {
+  background: var(--cloud);
+
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+}
+.secthree-title {
+  letter-spacing: 0.02em;
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+  color: var(--navy-blue);
+}
+
+.team {
+ background-color: #FFFFFF;
+}
+
+.image-list-secthree {
+  background-color: #FFFFFF
+}
+
+.team-p {
+font-size: 16px
+}
+
+
+/*-------------------------------------------------------- section four */
+
+
+.secfour {
+  background: var(--white);
+}
+
+.secfour-title {
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--navy-blue);
+}
+/*--------------------------------------------------------------- footer */
+footer {
+  background: var(--navy-blue);
+}
+
+.footer-description {
+  font-weight: 400;
+    font-size: 16px;
+  
+    /* line-height: 24px; */
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+footer a.web {
+  font-weight: 700;
+    font-size: 18px;
+  font-family: var(--second-family);
+    /* line-height: 21px; */
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--cloud);
+}
+
+footer a.logo {
+font-weight: 700;
+  font-size: 18px;
+font-family: var(--second-family);
+  /* line-height: 21px; */
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+}
+
+.logo {
+  line-height: 1.17
+}
+footer .header-logo-word {
+  color: #f4f4fd
+}
+footer p {
+    color: #F4F4FD;
+}
