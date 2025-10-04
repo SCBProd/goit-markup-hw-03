@@ -313,7 +313,7 @@ margin-bottom: 8px;
   line-height: 1.11;
   text-transform: capitalize;
   color: var(--navy-blue);
-  margin-bottom: 8px
+  margin-bottom: 72px;
 }
 
 .team {
@@ -339,7 +339,9 @@ margin-bottom: 8px;
 }
 
 
-
+.team-h {
+  margin-bottom: 8px;
+}
 
 .image-list-secthree {
   background-color: #FFFFFF
@@ -371,13 +373,6 @@ font-size: 16px
     margin-bottom: 72px;
 }
 
-.image-list-secfour {
-  display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-    row-gap: 48px;
-    justify-content: center;
-}
 .image-list-secfour {
   display: flex;
   flex-wrap: wrap;               
