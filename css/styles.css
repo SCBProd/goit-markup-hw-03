@@ -204,7 +204,7 @@ body {
 }
  
 
-/* Секція 1 */
+/* ------------------------------------------------ section one */
 .secone {
   background: var(--navy-blue);
   font-family: var(--font-family);
@@ -237,7 +237,7 @@ font-size: 56px;
   
 .secone button.order-button {
   background: var(--iris);
-
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -247,6 +247,9 @@ font-size: 56px;
   padding: 16px 32px;
   margin: 48px 0;
   border-radius: 4px;
+  min-width: 169px;
+  border: none;
+  height: 56px;
 }
 
 
@@ -260,8 +263,9 @@ font-size: 56px;
 /*----------------------------------------------- section two */
 
 .sectwo {
+  padding: 120px 0;
   font-weight: 400;
-    font-size: 16px;
+  font-size: 16px;
     
     /* line-height: 24px; */
     line-height: 1.5;
@@ -279,14 +283,14 @@ font-size: 56px;
   gap: 24px;
   
 }
-sectwo-li {
+.sectwo-li {
   background-color: var(--dairy);
   display: flex;
     width: calc((100% - 72px) / 4);
 }
 .sectwo-htwo {
 text-align: left;
-padding-bottom: 8px;
+margin-bottom: 8px;
 
 
 }
