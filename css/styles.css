@@ -301,7 +301,7 @@ margin-bottom: 8px;
 
 .secthree {
   background: var(--cloud);
-
+  padding: 120px 0;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -312,7 +312,7 @@ margin-bottom: 8px;
   line-height: 1.11;
   text-transform: capitalize;
   color: var(--navy-blue);
-  padding: 120px ;
+  margin-bottom: 72px
 }
 
 .team {
