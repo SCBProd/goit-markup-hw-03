@@ -313,7 +313,7 @@ margin-bottom: 8px;
   line-height: 1.11;
   text-transform: capitalize;
   color: var(--navy-blue);
-  margin-bottom: 72px
+  margin-bottom: 8px
 }
 
 .team {
@@ -323,8 +323,9 @@ margin-bottom: 8px;
     align-items: center;
     gap: 16px;
     padding: 16px;
-    border-radius: 8px;
+    border-radius: 0px 0px 4px 4px;
     width: calc((100% - 72px) / 4);
+    
 }
 
 .image-list-secthree {
@@ -346,6 +347,9 @@ margin-bottom: 8px;
 
 .team-p {
 font-size: 16px
+}
+.teambox {
+  padding: 32px 0
 }
 
 
