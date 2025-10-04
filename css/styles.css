@@ -381,6 +381,7 @@ font-size: 16px
   margin: 0;
   padding: 0;
   row-gap: 48px
+  column-gap: 24px;
 }
 
 .image-list-item {
@@ -393,6 +394,10 @@ font-size: 16px
   column-gap: 24px;
 }
 
+.portfolio-box {
+width: calc((100% - 48px) / 3);
+
+}
 
 
 
