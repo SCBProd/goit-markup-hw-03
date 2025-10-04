@@ -386,7 +386,7 @@ font-size: 16px
 }
 
 .image-list-item {
-  flex: 1 1 calc((100% - 72px) / 3); 
+  width: calc((100% - 48px) / 3);
   background: #fff;
   display: flex;
   flex-direction: column;
@@ -395,7 +395,6 @@ font-size: 16px
 }
 
 .portfolio-box {
-  width: calc((100% - 48px) / 3);
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
