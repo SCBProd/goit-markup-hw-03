@@ -350,7 +350,7 @@ margin-bottom: 8px;
 .team-p {
 font-size: 16px
 }
-.teambox {
+.team-box {
   padding: 32px 0
 }
 
@@ -380,6 +380,7 @@ font-size: 16px
   list-style: none;
   margin: 0;
   padding: 0;
+  row-gap: 48px
 }
 
 .image-list-item {
@@ -389,6 +390,7 @@ font-size: 16px
   flex-direction: column;
   overflow: hidden;
   border: 1px solid #e0e0e0;
+  column-gap: 24px;
 }
 
 
