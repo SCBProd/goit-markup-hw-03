@@ -71,10 +71,6 @@
 
   }
 
-  .header-nav-ul   {
-    padding: 24px 0;
-  }
-
 
   .header-logo-a {    
     padding:  24px 0;
@@ -154,6 +150,7 @@ body {
 
 .nav-ref {
   padding: 24px 0;
+  display: block;
 }
 
 .header {
@@ -207,31 +204,22 @@ body {
 /* ------------------------------------------------ section one */
 .secone {
   background: var(--navy-blue);
-  font-family: var(--font-family);
-  font-weight: 700;
-    font-size: 56px;
-    text-align: center;
-    line-height: 1.07;
-      letter-spacing: 0.02em;
-      color: var(--white);
       padding: 188px 0;
-
-      
 }
 
 .secone-title {
-
+  font-family: var(--font-family);
   font-weight: 700;
-font-size: 56px;
+  font-size: 56px;
   text-align: center;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--white);
 
-  display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    justify-content: center;
-    gap: 40px;
-  max-width: 496px;
  
+    margin: 0 auto;
+    max-width: 496px;
+
 }
 
   
@@ -265,38 +253,25 @@ font-size: 56px;
 .sectwo {
   padding: 120px 0;
 
-
-  font-weight: 400;
-  font-size: 16px;
-     
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--slate);
-    
 }
 
 .sectwo-ul {
   display: flex;
-  align-items: center;
- flex-direction: row;
-  justify-content: flex-start;
-  margin: 120px auto 120px auto ;
   gap: 24px;
-  
 }
 .sectwo-li {
-  background-color: var(--dairy);
-  display: flex;
-    width: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
+  
 }
 .sectwo-htwo {
-text-align: left;
-margin-bottom: 8px;
-
-
+  font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: var(--navy-blue);
+    margin-bottom: 8px;
 }
-
-
 /*----------------------------------------------- section three */
 
 
@@ -314,15 +289,11 @@ margin-bottom: 8px;
   text-transform: capitalize;
   color: var(--navy-blue);
   margin-bottom: 72px;
+  font-weight: 700;
 }
 
 .team {
- background-color: #FFFFFF;
-  display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
-    padding: 16px;
+  background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     width: calc((100% - 72px) / 4);
     
@@ -330,12 +301,7 @@ margin-bottom: 8px;
 
 .image-list-secthree {
   display: flex;
-  justify-content: center;
   gap: 24px;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-
 }
 
 
@@ -343,9 +309,6 @@ margin-bottom: 8px;
   margin-bottom: 8px;
 }
 
-.image-list-secthree {
-  background-color: #FFFFFF
-}
 
 .team-p {
 font-size: 16px
@@ -376,26 +339,19 @@ font-size: 16px
 
 .secfour-htree {
   margin-bottom: 8px;
+  text-align: left;
 }
 
 .image-list-secfour {
   display: flex;
   flex-wrap: wrap;               
-  justify-content: center;
-  list-style: none;
-  margin: 0;
-  padding: 0;
   row-gap: 48px;
   column-gap: 24px;
 }
 
 .image-list-item {
   width: calc((100% - 48px) / 3);
-  background: #fff;
-  display: flex;
-  flex-direction: column;
   overflow: hidden;
-  border: 1px solid #e0e0e0;
 }
 
 .portfolio-box {
@@ -420,7 +376,8 @@ footer {
     /* line-height: 24px; */
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--slate);
+    color: var(--cloud);
+    max-width: 264px;
 }
 
 footer a.web {
